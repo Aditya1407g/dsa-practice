@@ -1,5 +1,7 @@
 package searching;
 
+import java.util.Arrays;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,2,4,6,9,11,16,22,24,28,36,45,48,50,52,53};
