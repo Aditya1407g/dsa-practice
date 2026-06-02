@@ -10,4 +10,13 @@ public class Fibo {
 
         return fibo(n-1)+fibo(n-2);
     }
+    static int fib(int n, int[] dp) {
+        if (n <= 1) return n;
+
+        if (dp[n] != -1) return dp[n];
+
+        dp[n] = fib(dp[n-1],dp)+fib(dp[n-2],dp);
+
+        return dp[n];
+    }
 }
