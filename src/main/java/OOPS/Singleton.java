@@ -1,10 +1,11 @@
 package OOPS;
 
-public class Singleton {
+import OOPS.Access.A;
 
-    private Singleton(){
-        System.out.println("In single ton class");
-    }
+public class Singleton{
+
+
+
 
     private static Singleton instance;
 
@@ -16,6 +17,10 @@ public class Singleton {
 
         return instance;
     }
+
+
+    A obj = new A(23, "aditya");
+
 
 
 }
