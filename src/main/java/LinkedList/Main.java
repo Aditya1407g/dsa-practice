@@ -1,5 +1,9 @@
 package LinkedList;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Stack;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -25,6 +29,12 @@ public class Main {
         list1.insert(60);
         list1.insert(70);
         list1.display();
+
+
+        Stack<Integer> stack = new Stack<>();
+        stack.pop();
+
+        Deque<Integer> deque = new ArrayDeque<>();
 
 
 
