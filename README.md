@@ -9,6 +9,5 @@ Data Structures & Algorithms practice problems and pattern templates in Java.
 
 ## About
 
-Master's in Software Engineering at the University of Maryland, College Park (Fall 2026 — Spring 2028).
 
 Focus: Java backend development, Spring Boot, AWS, system design.
